@@ -1,0 +1,15 @@
+{
+  "target": "5,000,000,000 real tokens",
+  "no_oversampling": true,
+  "primary": [
+    ["HuggingFaceFW/fineweb", "general web", "2.0B"],
+    ["HuggingFaceFW/fineweb-edu", "educational", "1.2B"],
+    ["open-web-math/open-web-math", "math/science", "0.7B"],
+    ["HuggingFaceTB/finemath", "math", "0.5B"]
+  ],
+  "optional": [
+    ["fsnaix/vietnamese-corpus-large", "Vietnamese", "0.5B"],
+    ["bigcode/starcoderdata", "Python/JavaScript/Java/C++/Rust", "1.4B combined"]
+  ],
+  "note": "Review current dataset/license terms before redistribution. Builder downloads data at training time and records source/config/token counts."
+}
